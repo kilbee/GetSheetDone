@@ -66,7 +66,7 @@
           },
           "title": "GET SHEET DONE",
           "text": "Sprite sheet generator for Blender 3D",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"index.html#features4-5\" data-toolbar=\"-mbrBtnMove\">OVERVIEW</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#buttons1-g\" data-toolbar=\"-mbrBtnMove\">GET IT</a>  "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"index.html#features4-5\" data-toolbar=\"-mbrBtnMove\">OVERVIEW</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#buttons1-f\" data-toolbar=\"-mbrBtnMove\">GET IT</a>  "
         },
         {
           "_styles": {
@@ -176,7 +176,7 @@
           "_anchor": "features4-5",
           "_params": {
             "iconsBgColor": "#cccccc",
-            "paddingTop": "1",
+            "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
@@ -636,7 +636,7 @@
             "paddingBottom": "1",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bkground-2000x11250.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/bkground-2000x11252.jpg",
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
