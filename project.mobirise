@@ -348,18 +348,18 @@
             "Theme"
           ],
           "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "content1-1m",
           "_params": {
             "paddingTop": "3",
             "paddingBottom": 1,
             "bgColor": "#cccccc"
           },
-          "text": "<p>Also available at:</p>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text": "<p>Also available at:</p>"
         },
         {
           "_tags": [
@@ -849,7 +849,7 @@
             "parallax": true,
             "bgImageRadio": true,
 
-            "bgImage": "@PROJECT_PATH@/assets/images/bkground-2000x11254.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/bkground-2000x11250.jpg",
 
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
