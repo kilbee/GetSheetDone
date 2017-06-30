@@ -848,7 +848,9 @@
             "paddingBottom": "1",
             "parallax": true,
             "bgImageRadio": true,
+
             "bgImage": "@PROJECT_PATH@/assets/images/bkground-2000x11250.jpg",
+
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
