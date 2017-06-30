@@ -1,7 +1,7 @@
 {
   "settings": {
-    "currentPage": "docs.html",
-    "name": "My Site",
+    "currentPage": "index.html",
+    "name": "Get Sheet Done Homepage",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,8 +22,10 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 53,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 60,
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/gsd-logo-128x128-2.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -53,7 +55,7 @@
             "bgVideo": {
               "width": 1280,
               "height": 720,
-              "url": "https://www.youtube.com/embed/Y79tregxIEo?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+              "url": "https://www.youtube.com/embed/Wdq8fD8V7m0?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
             "bgVideoRadio": true,
             "overlay": true,
@@ -134,17 +136,20 @@
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "collapsed": true,
             "hideButtons": false
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/gsd-logo-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -152,8 +157,7 @@
               "name": "website-theme",
               "family": "MobiriseIcons",
               "link": "https://mobirise.com",
-              "size": 0,
-              "active": true
+              "size": 0
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HOME</a>",
@@ -301,7 +305,7 @@
             "paddingBottom": "3",
             "bgColor": "#cccccc"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://www.youtube.com/watch?v=Y79tregxIEo\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>WATCH VIDEO</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://www.youtube.com/watch?v=Wdq8fD8V7m0\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>WATCH VIDEO</a> "
         },
         {
           "_tags": [
@@ -338,6 +342,37 @@
             "bgColor": "#cccccc"
           },
           "text": "<p>Purchasing through blendermarket.com supports Blender Foundation's <a href=\"https://www.blender.org/foundation/development-fund/\" target=\"_blank\">Development Fund</a></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1m",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#cccccc"
+          },
+          "text": "<p>Also available at:</p>",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1l",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#cccccc"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://kilbeeu.itch.io/get-sheet-done\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Itch.io</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"https://sellfy.com/p/HNC8/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Sellfy.com</a>"
         },
         {
           "_inherit": "social-buttons1",
@@ -452,7 +487,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT</a>"
         }
       ]
     },
@@ -531,7 +566,7 @@
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "collapsed": true,
             "hideButtons": false
@@ -612,7 +647,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p>With this addon you get two new panels.</p></blockquote>"
+          "text": "<blockquote><p>This addon aims to help you create 2D sprite sheets from 3D models inside Blender 3D.</p><p><br></p><p>With this addon you get two new panels.</p></blockquote>"
         },
         {
           "_tags": [
@@ -724,6 +759,59 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-1n",
+          "_params": {
+            "imageSize": "70",
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen13-1400x1144.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SOLID COLOR INTRO WITH IMAGE",
+          "text": "You can slice images (to individual, smaller images or to spritesheets), reorganize rows and columns, as well as removing individual sprites or appending more sprites to existing sheets.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
           "_name": "content2",
           "_styles": {
             "P": {
@@ -761,7 +849,7 @@
             "parallax": true,
             "bgImageRadio": true,
 
-            "bgImage": "@PROJECT_PATH@/assets/images/bkground-2000x11251.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/bkground-2000x11254.jpg",
 
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
